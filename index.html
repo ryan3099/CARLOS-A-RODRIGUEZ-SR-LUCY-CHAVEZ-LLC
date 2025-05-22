@@ -1,67 +1,111 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARLOS A RODRIGUEZ SR LUCY CHAVEZ LLC</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #eee;
     }
     header {
-      background-color: #003366;
-      color: white;
-      padding: 30px 20px;
+      background: #000;
       text-align: center;
+      padding: 2rem;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
     }
-    h1, h2 {
-      color: #003366;
+    .section {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
     }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+    .vertical {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .horizontal {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .horizontal img,
+    .vertical img {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .half {
+      flex: 1 1 45%;
+      min-width: 300px;
     }
     footer {
-      background-color: #003366;
-      color: white;
+      background: #000;
+      color: #ccc;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+      padding: 1rem;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    <h1>CARLOS A RODRIGUEZ SR LUCY CHAVEZ LLC</h1>
+    <p>Business Services with Integrity</p>
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+  <section class="section vertical">
+    <h2>Our Story</h2>
+    <p>Located in Elgin, Illinois, we provide a wide range of professional services focused on community needs and transparent operations.</p>
+    <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Company Building">
+  </section>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <section class="section vertical">
+    <h2>What We Offer</h2>
+    <p>Our experience spans from tax-related services to document consulting and more, all carried with dedication and professionalism.</p>
+    <img src="https://images.unsplash.com/photo-1716816211590-c15a328a5ff0?q=80&w=2623&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Service Office">
+  </section>
+
+  <section class="section vertical">
+    <h2>Why Choose Us</h2>
+    <p>We prioritize client trust, confidentiality, and accurate results for every service we provide.</p>
+    <img src="https://images.unsplash.com/photo-1589536677029-c0aa1808fba6?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team Work">
+  </section>
+
+  <section class="section horizontal">
+    <div class="half">
+      <img src="https://images.unsplash.com/photo-1554478299-725a76d9badc?q=80&w=2536&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Documents">
+    </div>
+    <div class="half">
+      <img src="https://images.unsplash.com/photo-1528615798279-02f8efa6c100?q=80&w=2529&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Office Desk">
     </div>
   </section>
 
+  <section class="section horizontal">
+    <div class="half">
+      <img src="https://plus.unsplash.com/premium_photo-1723795204724-4d5911b89fe9?q=80&w=2369&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Forms">
+    </div>
+    <div class="half">
+      <img src="https://images.unsplash.com/photo-1554589855-c54e5c81caef?q=80&w=2231&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Working Together">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Email: admin@carlosallc.in.net</p>
+    <p>Phone: 530-614-4499</p>
+    <p>Address: Elgin, Illinois</p>
+  </section>
+
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    &copy; 2025 CARLOS A RODRIGUEZ SR LUCY CHAVEZ LLC. All rights reserved.
   </footer>
 </body>
 </html>
